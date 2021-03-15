@@ -19,7 +19,7 @@ Dictionary::Dictionary( char *Message )
     for( int iChar = 0; iChar < WordIn.size(); iChar++ )
       {
       QChar Char = WordIn[iChar];
-     if( Char < "À" || Char > "ÿ" ) break;
+     if( Char < "Ð" || Char > "Ñƒ" ) break;
         Word += Char.toLower();
       }
     if( Word.isEmpty() ) continue;
